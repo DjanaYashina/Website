@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  @font-face {
+    font-family: Our Fonts;
+    src: url(../fonts/Ubuntu-Regular.ttf);
+  }
+  
+  html {
+    width: 100%;
+    
+  }
+  
+  body {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background-image: url('https://phonoteka.org/uploads/posts/2021-04/1619111072_19-phonoteka_org-p-fon-dlya-prezentatsii-reka-i-priroda-22.jpg')
+  }
+  
+  .center {
+    margin-left: calc(100% - 1500px);
+    margin-right: calc(100% - 1500px);
+  }
+  
+  .main-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        
+  }
+  
+  .main-header .main-header__logo,
+  .main-header__title,
+  .main-header__menu {
+    margin: 15px 20px;
+    }
+  .main-header .main-header__logo .logo {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .main-header .main-header__title .main-title {
+    font-family: Our Fonts;
+    font-size: 18px;
+    line-height: 18px;
+  }
+  
+  .header-menu {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .header-menu li {
+    padding: 0 54px;
+  }
+
+  .content_one, .content_two, .content_three {
+    margin: 50px 30px 40px 10px;
+  }
+  
